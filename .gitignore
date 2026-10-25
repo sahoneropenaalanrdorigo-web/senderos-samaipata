@@ -1,0 +1,10 @@
+# Fotos originales de cámara (12 MB): no se publican, el sitio usa las versiones optimizadas
+img/originales/
+
+# Archivos que crean los sistemas operativos
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración personal del editor
+.vscode/

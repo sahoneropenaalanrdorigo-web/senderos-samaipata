@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Personalización de Bootstrap con la identidad de Senderos Samaipata (Laboratorios 10-11)
+   Estrategia: sobrescribir las VARIABLES CSS de Bootstrap (--bs-*), no sus reglas.
+   Se carga DESPUÉS de bootstrap.min.css.
+   ========================================================================== */
+
+/* ---------- 1. Tokens de la marca y variables globales de Bootstrap ---------- */
+:root,
+[data-bs-theme="light"] {
+  --marca-bosque: #1f5f3f;
+  --marca-sol: #f2c14e;
+  --marca-sol-oscuro: #e0ac2f;
+  --marca-tierra: #9a3412;
+
+  --bs-body-bg: #fbf8f2;
+  --bs-body-color: #1f2933;
+  --bs-tertiary-bg: #f1ece1;
+  --bs-link-color-rgb: 31, 95, 63;        /* los enlaces usan rgba(var(--bs-link-color-rgb), …) */
+  --bs-link-hover-color-rgb: 154, 52, 18;
+  --bs-danger-rgb: 154, 52, 18;           /* el badge 'Más vendido' toma el terracota de la marca */
+  --bs-border-radius-lg: 1rem;
+}
+
+[data-bs-theme="dark"] {
+  --marca-bosque: #8fd3a9;
+  --bs-body-bg: #121c17;
+  --bs-body-color: #e6ede8;
+  --bs-tertiary-bg: #18251e;
+  --bs-link-color-rgb: 143, 211, 169;
+  --bs-link-hover-color-rgb: 244, 165, 130;
+}
+
+/* ---------- 2. Tipografía ---------- */
+h1,
+h2,
+h3,
+.h3,
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.navbar-brand {
+  color: var(--marca-bosque);
+}
+
+/* ---------- 3. Botones con la marca: se redefinen las variables del componente ---------- */
+.btn-warning {
+  --bs-btn-color: #1f2933;
+  --bs-btn-bg: var(--marca-sol);
+  --bs-btn-border-color: var(--marca-sol);
+  --bs-btn-hover-color: #1f2933;
+  --bs-btn-hover-bg: var(--marca-sol-oscuro);
+  --bs-btn-hover-border-color: var(--marca-sol-oscuro);
+  --bs-btn-active-bg: var(--marca-sol-oscuro);
+}
+
+.btn-outline-success {
+  --bs-btn-color: var(--marca-bosque);
+  --bs-btn-border-color: var(--marca-bosque);
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #1f5f3f;
+  --bs-btn-hover-border-color: #1f5f3f;
+  --bs-btn-active-bg: #1f5f3f;
+}
+
+/* ---------- 4. Tarjetas y carrusel ---------- */
+.card-img-top {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* El texto del carrusel sobre un degradado para garantizar el contraste */
+.carousel-caption {
+  inset: auto 0 0;
+  padding: 3rem 1.5rem 2.5rem;
+  background: linear-gradient(to top, rgb(15 35 25 / 0.9), transparent);
+  color: #ffffff; /* texto blanco sobre el degradado, también en modo oscuro */
+  text-align: start;
+}
+
+/* ---------- 5. Movimiento con propósito ---------- */
+@media (hover: hover) {
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgb(31 41 51 / 0.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .carousel-item {
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}

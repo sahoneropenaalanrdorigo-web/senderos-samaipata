@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto y reservas · Senderos Samaipata</title>
+  <link rel="canonical" href="https://senderossamaipata.bo/contacto.html">
+  <meta name="description" content="Reserva tu tour en Samaipata por WhatsApp, teléfono o correo. Horarios de atención y cómo llegar desde Santa Cruz.">
+  <link rel="stylesheet" href="css/estilos.css">
+  <meta name="theme-color" content="#1f5f3f">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+</head>
+<body>
+  <header>
+    <div class="marca">
+      <p><strong>Senderos Samaipata</strong></p>
+      <p>Tours de naturaleza, historia y aventura en el corazón de los Valles Cruceños</p>
+    </div>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contacto y reservas</h1>
+    <p>Reserva con el formulario de abajo o escríbenos por WhatsApp o correo: te respondemos el mismo día. Para grupos de más de 8 personas consulta
+      por nuestras tarifas especiales.</p>
+
+    <section aria-labelledby="horario">
+      <h2 id="horario">Horario de atención</h2>
+      <dl>
+        <dt>Lunes a sábado</dt>
+        <dd>de <time>08:00</time> a <time>19:00</time></dd>
+        <dt>Domingos y feriados</dt>
+        <dd>de <time>08:00</time> a <time>12:00</time></dd>
+      </dl>
+    </section>
+
+    <section aria-labelledby="canales">
+      <h2 id="canales">Canales</h2>
+      <ul>
+        <li>WhatsApp: <a href="https://wa.me/59170000000">+591 700 00000</a></li>
+        <li>Teléfono fijo: <a href="tel:+59139440000">+591&nbsp;3&nbsp;944&nbsp;0000</a></li>
+        <li>Correo: <a href="mailto:reservas@senderossamaipata.bo">reservas@senderossamaipata.bo</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="llegar">
+      <h2 id="llegar">Cómo llegar desde Santa Cruz</h2>
+      <ol>
+        <li>Toma un trufi o taxi compartido hacia Samaipata en la parada de la avenida Omar Chávez.</li>
+        <li>El viaje dura unas 2 horas y media por la carretera antigua a Cochabamba.</li>
+        <li>En Samaipata camina hasta la plaza principal; nuestra oficina está a una cuadra, en la Calle Bolívar 45.</li>
+      </ol>
+      <iframe src="https://www.google.com/maps?q=Samaipata,+Santa+Cruz,+Bolivia&amp;output=embed"
+              title="Mapa: ubicación de Samaipata, Santa Cruz, Bolivia"
+              width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p><a href="https://maps.google.com/?q=Samaipata,Santa+Cruz,Bolivia" target="_blank" rel="noopener">Ver
+          ubicación en Google Maps (se abre en una pestaña nueva)</a></p>
+    </section>
+    <section aria-labelledby="reserva">
+      <h2 id="reserva">Reserva tu tour</h2>
+      <p>Los campos marcados con <span aria-hidden="true">*</span> son obligatorios. Te confirmaremos la reserva por
+        WhatsApp o correo en menos de 24 horas.</p>
+
+      <form action="gracias.html" method="get">
+        <div class="form-columnas">
+          <fieldset>
+            <legend>Tus datos</legend>
+
+            <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+
+            <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+            <input type="email" id="correo" name="correo" autocomplete="email" required>
+
+            <label for="celular">Celular <span aria-hidden="true">*</span></label>
+            <input type="tel" id="celular" name="celular" autocomplete="tel" inputmode="numeric"
+                   pattern="[67][0-9]{7}" aria-describedby="ayuda-celular" required>
+            <p id="ayuda-celular">8 dígitos, empieza con 6 o 7. Ejemplo: 70000000</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Tu tour</legend>
+
+            <label for="tour">Tour <span aria-hidden="true">*</span></label>
+            <select id="tour" name="tour" required>
+              <option value="">— Elige un tour —</option>
+              <option value="fuerte">Fuerte de Samaipata</option>
+              <option value="helechos">Bosque de helechos gigantes</option>
+              <option value="cuevas">Cascadas de Las Cuevas</option>
+              <option value="condores">Mirador de cóndores</option>
+              <option value="che">Ruta del Che</option>
+              <option value="vinos">Tarde de vinos y sabores</option>
+            </select>
+
+            <label for="fecha">Fecha del tour <span aria-hidden="true">*</span></label>
+            <input type="date" id="fecha" name="fecha" min="2026-10-01" max="2027-12-31" required>
+
+            <label for="adultos">Adultos <span aria-hidden="true">*</span></label>
+            <input type="number" id="adultos" name="adultos" min="1" max="8" value="1" required>
+
+            <label for="ninos">Niños (5-12 años)</label>
+            <input type="number" id="ninos" name="ninos" min="0" max="8" value="0">
+
+            <fieldset>
+              <legend>Idioma del guía</legend>
+              <input type="radio" id="idioma-es" name="idioma" value="es" checked>
+              <label for="idioma-es">Español</label>
+              <input type="radio" id="idioma-en" name="idioma" value="en">
+              <label for="idioma-en">Inglés</label>
+              <input type="radio" id="idioma-pt" name="idioma" value="pt">
+              <label for="idioma-pt">Portugués</label>
+            </fieldset>
+          </fieldset>
+        </div>
+
+        <label for="comentarios">Comentarios (alergias, necesidades especiales…)</label>
+        <textarea id="comentarios" name="comentarios" rows="4" maxlength="500"></textarea>
+
+        <input type="checkbox" id="acepto" name="acepto" value="si" required>
+        <label for="acepto">Leí y acepto las <a href="legal/politicas.html">políticas de reserva y cancelación</a>
+          <span aria-hidden="true">*</span></label>
+
+        <button class="boton" type="submit">Enviar solicitud de reserva</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Senderos Samaipata · Calle Bolívar 45, Samaipata, Santa Cruz, Bolivia<br>
+      WhatsApp: <a href="https://wa.me/59170000000">+591 700 00000</a> ·
+      Correo: <a href="mailto:reservas@senderossamaipata.bo">reservas@senderossamaipata.bo</a>
+    </address>
+    <p><a href="legal/politicas.html">Políticas de reserva y cancelación</a></p>
+    <p><small>© 2026 Senderos Samaipata. Sitio desarrollado por: Alan Rodrigo Sahonero Peña — Diseño Web I, UPDS</small></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1) Título descriptivo (antes: "Promo") y 2) meta description (faltaba: SEO) -->
+  <title>Cascadas de Las Cuevas con 20 % de descuento · Senderos Samaipata</title>
+  <meta name="description" content="Tour a las Cascadas de Las Cuevas a Bs 96 por persona durante noviembre de 2026. Válido para grupos de 2 o más.">
+  <link rel="stylesheet" href="css/estilos.css">
+  <meta name="theme-color" content="#1f5f3f">
+  <!-- 9) favicon: sin él, el navegador pide /favicon.ico y registra un error 404 en la consola -->
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <!-- 3) Sin <style> con colores sueltos: la nota usa --color-suave (5.5:1) y el precio va en <strong> (antes: gris #a9a9a9 = 2.3:1 y dorado sobre crema = 1.6:1) -->
+</head>
+<body>
+  <main>
+    <h1>Promoción de temporada</h1>
+    <!-- 4) Jerarquía: h2 después de h1 (antes saltaba a h4) -->
+    <h2>¡Solo en noviembre!</h2>
+    <!-- 5) alt descriptivo y 6) width/height para reservar el espacio (antes: sin alt y sin dimensiones → CLS) -->
+    <img src="img/cuevas-960.webp" width="960" height="640"
+         alt="Ilustración de una cascada de Las Cuevas que cae sobre una poza turquesa">
+    <p>Tour a las Cascadas de Las Cuevas con 20 % de descuento: <strong>Bs 96</strong> por persona.</p>
+    <p><small>Válido para grupos de 2 o más personas. No acumulable con otras promociones.</small></p>
+    <!-- 7) Texto de enlace descriptivo (antes: "clic aquí") -->
+    <p><a class="boton" href="contacto.html#reserva">Reservar la promoción de las cascadas</a></p>
+    <!-- 8) El botón con solo un ícono no tenía nombre accesible: ahora es un enlace con texto visible -->
+    <p><a href="https://wa.me/59170000000">Consultar la promoción por WhatsApp</a></p>
+  </main>
+</body>
+</html>

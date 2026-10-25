@@ -1,0 +1,6 @@
+# robots.txt — Senderos Samaipata
+User-agent: *
+Disallow: /gracias.html
+Disallow: /version-bootstrap/
+
+Sitemap: https://senderossamaipata.bo/sitemap.xml
