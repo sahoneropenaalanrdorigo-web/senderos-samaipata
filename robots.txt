@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /gracias.html
 Disallow: /version-bootstrap/
 
-Sitemap: https://senderossamaipata.bo/sitemap.xml
+Sitemap:    https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/sitemap.xml

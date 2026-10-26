@@ -17,7 +17,7 @@
   --bs-tertiary-bg: #f1ece1;
   --bs-link-color-rgb: 31, 95, 63;        /* los enlaces usan rgba(var(--bs-link-color-rgb), …) */
   --bs-link-hover-color-rgb: 154, 52, 18;
-  --bs-danger-rgb: 154, 52, 18;           /* el badge 'Más vendido' toma el terracota de la marca */
+  --bs-danger-rgb: 154, 52, 18;   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/  /* el badge 'Más vendido' toma el terracota de la marca */
   --bs-border-radius-lg: 1rem;
 }
 

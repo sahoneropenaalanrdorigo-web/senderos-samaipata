@@ -14,54 +14,54 @@ Inicio ─┬─ Tours ──── (anclas por tour) ─── Tarifas
 ┌───────────────────────────┐
 │ Senderos Samaipata        │  cabecera (no fija)
 │ Inicio Tours Galería      │
-│ Nosotros Contacto         │
+│ Nosotros Contacto   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/│
 ├───────────────────────────┤
-│ NOSOTROS (h1)             │
+│ NOSOTROS (h1)   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/    │
 │ Texto de entrada (2-3     │
 │ líneas: quiénes somos)    │
-│                           │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/│
 │ Nuestra historia (h2)     │
-│ ┃ ● 2014 …                │  línea de tiempo
-│ ┃ ● 2017 …                │
-│ ┃ ● 2020 …                │
-│                           │
-│ El equipo (h2)            │
+│ ┃ ● 2014 …   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       │  línea de tiempo
+│ ┃ ● 2017 …   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       │
+│ ┃ ● 2020 …   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/│
+│ El equipo (h2)   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   │
 │ ┌───────────────────────┐ │
 │ │  (RM)  Rosa Méndez    │ │  tarjeta por persona
-│ │  Fundadora…           │ │  (1 columna)
+│ │  Fundadora…   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/  │ │  (1 columna)
 │ └───────────────────────┘ │
-│ …                         │
+│ …   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       │
 │ Nuestro impacto (h2)      │
 │ [ +4.000 viajeros ]       │  cifras apiladas
 │ [ 1.200 árboles   ]       │
-│                           │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/│
 │ Preguntas frecuentes (h2) │
 │ ▸ ¿Necesito experiencia?  │  <details>
 │ ▸ ¿Qué debo llevar?       │
-│                           │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/│
 │ ( Reserva tu tour )       │  botón → contacto
-│                   [WA]    │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/ [WA]    │
 └───────────────────────────┘
 ```
 
 ## 3. Wireframe — escritorio (1280 px)
 ```
 ┌────────────────────────────────────────────────────────────┐
-│ Senderos Samaipata                Inicio Tours … Contacto  │ fija
+│ Senderos Samaipata   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       Inicio Tours … Contacto  │ fija
 ├────────────────────────────────────────────────────────────┤
-│ NOSOTROS                                                   │
-│ Texto de entrada (máx. 65 caracteres por línea)            │
-│                                                            │
-│ Nuestra historia                                           │
-│ ┃ ● 2014 …   ┃ ● 2017 …   (sigue siendo vertical)          │
-│                                                            │
-│ El equipo                                                  │
+│ NOSOTROS   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/      │
+│ Texto de entrada (máx. 65 caracteres por línea)   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/      │
+│ Nuestra historia   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/       │
+│ ┃ ● 2014 …   ┃ ● 2017 …   (sigue siendo vertical)   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/ │
+│   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/      │
+│ El equipo   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/     │
 │ ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐   4 tarjetas en fila   │
-│ │ (RM) │ │ (JM) │ │ (LM) │ │ (AV) │                        │
-│ └──────┘ └──────┘ └──────┘ └──────┘                        │
-│ Nuestro impacto                                            │
-│ [ +4.000 ]   [ 1.200 ]   [ 8 ]          3 cifras en fila   │
-│ Preguntas frecuentes (acordeón a todo el ancho)            │
+│ │ (RM) │ │ (JM) │ │ (LM) │ │ (AV) │   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/      │
+│ └──────┘ └──────┘ └──────┘ └──────┘   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/      │
+│ Nuestro impacto   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/        │
+│ [ +4.000 ]   [ 1.200 ]   [ 8 ]   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/ 3 cifras en fila   │
+│ Preguntas frecuentes (acordeón a todo el ancho)   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/   │
 └────────────────────────────────────────────────────────────┘
 ```
 

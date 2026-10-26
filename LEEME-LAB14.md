@@ -39,7 +39,7 @@ En el repositorio: **Settings > Pages > Build and deployment > Source: Deploy fr
 Espera 1-2 minutos y abre `https://TU-USUARIO.github.io/senderos-samaipata/`.
 
 ## Paso 5 — Poner la dirección real en el sitio (segundo commit)
-Reemplaza `https://senderossamaipata.bo/` por tu URL de GitHub Pages en: `canonical` de las 6 páginas, `sitemap.xml`,
+Reemplaza `   https://sahoneropenaalanrdorigo-web.github.io/senderos-samaipata/` por tu URL de GitHub Pages en: `canonical` de las 6 páginas, `sitemap.xml`,
 `robots.txt`, las metas Open Graph y el JSON-LD. En `404.html` agrega `<base href="/senderos-samaipata/">`.
 ```
 git add .
